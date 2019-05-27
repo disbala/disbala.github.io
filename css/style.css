@@ -56,7 +56,7 @@ nav < li{
 
 
 *{
-	font-family: 'SofiaPro-Bold';
+	font-family: 'SofiaPro-Bold', 'Roboto';
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -233,6 +233,12 @@ h8{
 	line-height: 0px;
 }
 
+h9{
+	font-family: 'SofiaPro-Bold';
+	font-size: 14px;
+	line-height: 0px;
+	letter-spacing: 0.1em;
+}
 
 a{
 text-decoration:none;
@@ -249,4 +255,40 @@ text-decoration:none;
 
 .pdf{
 	height: 400px;
+}
+
+.process1{
+	width: 100%;
+}
+
+.process2{
+	width: 80%;
+	padding-left:10%
+	
+}
+
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+	-webkit-transition: opacity 0.4s; /* Safari */
+	transition: opacity 0.4s;
+}
+
+
+.image2:hover{
+	opacity: 1;
 }
