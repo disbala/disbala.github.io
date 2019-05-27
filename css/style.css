@@ -22,7 +22,7 @@ body {
 
 @font-face {
   font-family: 'SofiaPro-Light';
-  src: url('../disbala.github.io/css/fonts/sofia/Sofia Pro Regular.otf')  format('opentype');
+  src: url('/css/fonts/sofia/Sofia Pro Regular.otf')  format('opentype');
   font-weight:lighter;
   font-style: normal;
 }
