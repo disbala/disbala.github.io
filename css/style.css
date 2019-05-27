@@ -22,7 +22,7 @@ body {
 
 @font-face {
   font-family: 'SofiaPro-Light';
-  src: url('./css/fonts/sofia/Sofia Pro Regular.otf')  format('opentype');
+  src: url('fonts/Sofia/Sofia Pro Regular.otf')  format('opentype');
   font-weight:lighter;
   font-style: normal;
 }
