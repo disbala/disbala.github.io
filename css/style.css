@@ -13,8 +13,8 @@ body {
 
 @font-face {
   font-family: 'SofiaPro-Bold';
-  src: url('fonts/sofiapro-bold/SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/sofiapro-bold/SofiaPro-Bold.otf')  format('opentype'),
-	     url('fonts/sofiapro-bold/SofiaPro-Bold.woff') format('woff'), url('fonts/sofiapro-bold/SofiaPro-Bold.ttf')  format('truetype'), url('fonts/sofiapro-bold/SofiaPro-Bold.svg#SofiaPro-Bold') format('svg');
+  src: url('./css/fonts/sofiapro-bold/SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),  url('./css/fonts/sofiapro-bold/SofiaPro-Bold.otf')  format('opentype'),
+	     url('./css/fonts/sofiapro-bold/SofiaPro-Bold.woff') format('woff'), url('./css/fonts/sofiapro-bold/SofiaPro-Bold.ttf')  format('truetype'), url('./css/fonts/sofiapro-bold/SofiaPro-Bold.svg#SofiaPro-Bold') format('svg');
   font-weight: 100;
   font-style:normal;
 	
@@ -22,7 +22,7 @@ body {
 
 @font-face {
   font-family: 'SofiaPro-Light';
-  src: url('fonts/sofia/Sofia Pro Regular.otf')  format('opentype');
+  src: url('./css/fonts/sofia/Sofia Pro Regular.otf')  format('opentype');
   font-weight:lighter;
   font-style: normal;
 }
