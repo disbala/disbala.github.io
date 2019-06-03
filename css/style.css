@@ -28,8 +28,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 @font-face {
     font-family: 'SofiaPro-Bold';
-    src: url('../sofiapro-bold-webfont.woff2') format('woff2'),
-         url('../sofiapro-bold-webfont.woff') format('woff');
+    src: url('../disbala.github.io/sofiapro-bold-webfont.woff2') format('woff2'),
+         url('../disbala.github.io/sofiapro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
