@@ -19,8 +19,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 @font-face {
   font-family: 'SofiaPro-Bold';
-  src: url('fonts/sofiapro-bold/SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/sofiapro-bold/SofiaPro-Bold.otf')  format('opentype'),
-	     url('fonts/sofiapro-bold/SofiaPro-Bold.woff') format('woff'), url('fonts/sofiapro-bold/SofiaPro-Bold.ttf')  format('truetype'), url('fonts/sofiapro-bold/SofiaPro-Bold.svg#SofiaPro-Bold') format('svg');
+  src: url('https://github.com/disbala/disbala.github.io/blob/master/css/fonts/SofiaPro-Bold/SofiaPro-Bold.woff?raw=true') format('woff'), 
   font-weight: 100;
   font-style:normal;
 	
@@ -28,7 +27,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 @font-face {
   font-family: 'SofiaPro-Light';
-  src: url('../css/fonts/Sofia/Sofia Pro Regular.otf')  format('opentype');
+  src: url('https://github.com/disbala/disbala.github.io/blob/master/css/fonts/Sofia/Sofia%20Pro%20Regular.otf?raw=true')  format('opentype');
   font-weight:lighter;
   font-style: normal;
 }
