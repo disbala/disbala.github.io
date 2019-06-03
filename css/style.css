@@ -17,19 +17,22 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 
-@font-face {
-  font-family: 'SofiaPro-Bold';
-  src: url('https://github.com/disbala/disbala.github.io/blob/master/css/fonts/SofiaPro-Bold/SofiaPro-Bold.woff?raw=true') format('woff'), 
-  font-weight: 100;
-  font-style:normal;
-	
-}
 
+}
 @font-face {
   font-family: 'SofiaPro-Light';
   src: url('https://github.com/disbala/disbala.github.io/blob/master/css/fonts/Sofia/Sofia%20Pro%20Regular.otf?raw=true')  format('opentype');
   font-weight:lighter;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Bold';
+    src: url('../sofiapro-bold-webfont.woff2') format('woff2'),
+         url('../sofiapro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 li {
@@ -61,7 +64,7 @@ nav < li{
 
 
 *{
-	font-family: 'SofiaPro-Bold', 'Roboto';
+	font-family: 'SofiaPro-Bold';
 	-webkit-font-smoothing: antialiased;
 	
 }
