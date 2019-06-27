@@ -31,6 +31,7 @@ html {
 
 
 }
+
 @font-face {
   font-family: 'SofiaPro-Light';
   src: url('../disbala.github.io/sofia-reg.woff2')  format('opentype');
@@ -52,8 +53,8 @@ html {
 li {
 	float: left;
 	list-style: none;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 40px;
 	justify-content: center;
 	display: flex;
 	justify-content: center;
@@ -76,9 +77,15 @@ nav < li{
 	flex: 1;
 }
 
+header{
+	height: 400px;
+}
+
+
 
 *{
 	font-family: 'SofiaPro-Bold';
+	z-index: 100;
 	-webkit-font-smoothing: antialiased;
 	
 }
@@ -87,7 +94,8 @@ nav < li{
 .logo{
 	height: 30px;
 	top:2px;
-	opacity: 0.8;
+	opacity: 1;
+	padding-right: 200%;
 	-webkit-transition: opacity 0.4s; /* Safari */
 	transition: opacity 0.4s;
 }
@@ -97,19 +105,24 @@ nav < li{
 	opacity: 1;
 }
 
+.title{
+	
+}
+
 .work {
     position: relative;
 	display: block;
     padding-bottom: 100%;
-	background-color: gray;
-	outline:10px solid white !important;
+	background-color: blue;
+	border-radius: 0px;
+	outline: 13px solid white !important;
 	
 }
 .work .content {
     position: absolute;
     width: 100%;
     height: 100%;
-	
+	border-radius: 20px;
 	
 	background-size: 100%;
 }
@@ -156,7 +169,7 @@ nav < li{
 .something{
 	width : 100%;
 	height : 100%;
-	background-color:darkslategrey;
+	background-color:#3951DF;
 	opacity : 0;
 	-webkit-transition: opacity 0.4s; /* Safari */
 	transition: opacity 0.4s;
@@ -179,13 +192,25 @@ h4{
 	opacity: 0.6;
 	-webkit-transition: opacity 0.4s; /* Safari */
 	transition: opacity 0.4s;
-	font-size: 14px;
+	font-size: 16px;
+	color: #3951DF;
 	
 }
 
 h4:hover{
 	opacity:1;
 }
+
+
+h44{
+	opacity: 1;
+	-webkit-transition: opacity 0.4s; /* Safari */
+	transition: opacity 0.4s;
+	font-size: 16px;
+	color: #3951DF;
+	
+}
+
 
 
 .title{
@@ -281,14 +306,15 @@ h7{
 
 h8{
 	font-family: 'SofiaPro-Light', 'Roboto';
-	font-size: 14px;
-	color: #808080;
+	font-size: 18px;
+	color: #555555;
 	line-height: 0px;
+	line-height: 1.8;
 }
 
 h9{
 	font-family: 'SofiaPro-Bold', 'Roboto';
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 0px;
 	letter-spacing: 0.1em;
 }
@@ -380,7 +406,7 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 button:hover{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	background-color: darkblue;
+	background-color: blue;
 	cursor:pointer;
 }
 
@@ -401,7 +427,9 @@ button:hover{
   
 }
 
-
+.wave{
+	font-size: 24px;
+}
 
 div.about1-container{
 	display: flex;
@@ -410,7 +438,7 @@ div.about1-container{
 }
 
 .navig{
-	padding-left: 80px;
+	padding-left: 0px;
 }
 
 @media only screen and (max-width: 40em) {
@@ -425,7 +453,7 @@ div.about1-container{
 
 @media only screen and (max-width: 58em) {
 	.navig{
-		padding-left: 7% !important;
+		padding-left: 0% !important;
 	}
 }
 
@@ -448,3 +476,241 @@ h21{
 	font-size: 52px;
 	line-height: 40px;
 }
+
+
+h31{
+	font-family: 'SofiaPro-Bold', 'Roboto';
+	font-size: 28px;
+	
+}
+
+h32{
+	font-family: 'SofiaPro-Light', 'Roboto';
+	font-size: 19px;
+}
+
+h33{
+	font-family: 'SofiaPro-Light', 'Roboto';
+	font-size: 19px;
+	font-color: #3951DF !important;
+	color: #3951DF !important;
+}
+
+.start{
+	width: 67%;
+    
+}
+
+
+
+
+
+
+.break{
+	width: 170px;
+	color: #3951DF;
+	height: 6px;
+	border-radius: 50px;
+	background-color: #3951DF;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	
+}
+
+span.wave {
+  animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;          /* Change to speed up or slow down */
+  animation-iteration-count: infinite;    /* Never stop waving :) */
+  transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+  100% { transform: rotate(  0.0deg) }
+}
+
+.links{
+	justify-content: flex-end;
+}
+
+
+
+
+
+
+.shapes{
+	z-index: -1 !important;
+	opacity: .9;
+}
+
+
+
+
+.shapes .sqare { 
+  position: absolute; 
+  top: 100px;
+  left: 500px;
+  width: 30px; 
+  height: 30px; 
+  background-color: transparent; 
+  border: 10px solid #D1DAFF;
+  transition: border-color .4s ease; 
+  -webkit-transition: border-color .4s ease; 
+	z-index: -100;
+}
+
+.shapes .circle { 
+  position: absolute; 
+  top: 300px;
+  left: 200px;
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  background-color: transparent; 
+  border: 10px solid #D1DAFF;
+  transition: border-color .4s ease; 
+  -webkit-transition: border-color .4s ease; 
+  z-index: -100;
+}
+
+.shapes .triangle {
+  position: absolute; 
+  width: 60px; 
+  height: 60px; 
+  top: 150px; 
+  left: 1000px; 
+	z-index: -100;
+}
+
+.float {
+	z-index: -100;
+  -webkit-animation-name: Floating;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 50px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+
+.spin {
+  -webkit-animation-name: Spinning;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Spinning{
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  } 
+}
+
+
+
+.navbar{
+	background: white;
+	display: flex;
+	flex-direction: row;
+	height: 80px;
+}
+
+
+
+.navbar .link{
+	display: flex;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+	flex: 1;
+	justify-content: flex-end;
+	padding-left: 40px;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.navbar .logoimg{
+	display: flex;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+	flex: 9;
+	justify-content: flex-start;
+	
+}
+
+
+.logosrc{
+	height: 32px;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}
+
+@media only screen and (max-width: 40em) {
+	.disappear{
+		display:none !important;
+	}
+		
+}
+
+
+@media only screen and (max-width: 40em) {
+	.start{
+		width: 80%;
+	}
+	
+}
+
+
+
+.bottomnavbar{
+	background: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 80px;
+	
+}
+
+.bottomnavbar .link2{
+	display: flex;
+    text-align: left;
+	margin: auto;
+    text-decoration: none;
+    color: white;
+	flex: 3;
+	padding: 20px;
+	justify-content: left;
+	
+	
+	
+}
+
+
+h41{
+	opacity: 0.6;
+	-webkit-transition: opacity 0.4s; /* Safari */
+	transition: opacity 0.4s;
+	font-size: 24px;
+	color: #3951DF;
+	
+}
+
+h41:hover{
+	opacity:1;
+}
+
+
