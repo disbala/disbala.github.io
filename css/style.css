@@ -675,6 +675,12 @@ span.wave {
 }
 
 
+@media only screen and (max-width: 38em) {
+	header{
+		height: 500px;
+	}
+}
+
 
 .bottomnavbar{
 	background: white;
