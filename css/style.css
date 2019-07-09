@@ -674,6 +674,15 @@ span.wave {
 	
 }
 
+@media only screen and (max-width: 50em) {
+	.hero2{
+		background-position: right -0px top;
+	}
+	.hero{
+		background-position: right -100px top;
+	}
+}
+
 
 @media only screen and (max-width: 38em) {
 	header{
